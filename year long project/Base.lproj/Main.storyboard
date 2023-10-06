@@ -12,7 +12,7 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="feedViewController" customModule="year_long_project" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="feed">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
@@ -63,7 +63,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@larsdansie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bak-Ch-RLe">
-                                                    <rect key="frame" x="120" y="8.0000000000000018" width="77.666666666666686" height="21.666666666666671"/>
+                                                    <rect key="frame" x="110" y="8.0000000000000018" width="77.666666666666686" height="21.666666666666671"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -73,7 +73,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUE-nX-ina">
-                                                    <rect key="frame" x="212.66666666666666" y="11" width="29" height="17"/>
+                                                    <rect key="frame" x="234" y="11" width="29" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -82,13 +82,11 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Q4d-1h-xiE" secondAttribute="trailing" constant="30" id="0XW-hH-4bi"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="top" secondItem="SQk-Xy-Zow" secondAttribute="bottom" constant="0.6666666666666643" id="7aF-2O-fl3"/>
-                                                <constraint firstItem="PUE-nX-ina" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Bak-Ch-RLe" secondAttribute="trailing" constant="8" symbolic="YES" id="7qK-GO-LDc"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Q4d-1h-xiE" secondAttribute="bottom" constant="18.666666666666671" id="7yy-4L-40j"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="leading" secondItem="SQk-Xy-Zow" secondAttribute="leading" id="9og-y5-XSQ"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="centerY" secondItem="aJQ-k4-yAc" secondAttribute="centerY" id="CvG-gq-sSg"/>
-                                                <constraint firstAttribute="trailing" secondItem="PUE-nX-ina" secondAttribute="trailing" constant="151.33333333333334" id="HzE-Eb-pd5"/>
-                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SQk-Xy-Zow" secondAttribute="trailing" constant="6.6666666666666572" id="MGQ-1O-XNO"/>
-                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="leading" secondItem="Ze7-6t-eif" secondAttribute="trailing" constant="60" id="PI6-tR-9an"/>
+                                                <constraint firstAttribute="trailing" secondItem="PUE-nX-ina" secondAttribute="trailing" constant="130" id="HzE-Eb-pd5"/>
+                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="leading" secondItem="Ze7-6t-eif" secondAttribute="trailing" constant="50" id="PI6-tR-9an"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze7-6t-eif" secondAttribute="trailing" constant="8" symbolic="YES" id="Q7u-BZ-ypK"/>
                                                 <constraint firstItem="Bak-Ch-RLe" firstAttribute="top" secondItem="aJQ-k4-yAc" secondAttribute="top" constant="8" id="elK-yq-xFY"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="top" secondItem="Bak-Ch-RLe" secondAttribute="bottom" id="h6w-em-V0s"/>
@@ -150,6 +148,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Feed" image="backward" catalog="system" selectedImage="backward.fill" id="bh5-Gu-3C9"/>
+                    <connections>
+                        <outlet property="postTableView" destination="bwZ-qM-VFl" id="A52-ol-cBJ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
