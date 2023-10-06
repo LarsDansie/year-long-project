@@ -1,0 +1,81 @@
+
+/* Class = "UILabel"; text = "name"; ObjectID = "0Bp-By-mUK"; */
+"0Bp-By-mUK.text" = "name";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "3mb-Jx-tDE"; */
+"3mb-Jx-tDE.title" = "Profile";
+
+/* Class = "UILabel"; text = "@username"; ObjectID = "7rB-fX-0xr"; */
+"7rB-fX-0xr.text" = "@username";
+
+/* Class = "UIButton"; configuration.title = "Replies"; ObjectID = "870-D0-PnB"; */
+"870-D0-PnB.configuration.title" = "Replies";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "870-D0-PnB"; */
+"870-D0-PnB.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "120 FOLLOWING"; ObjectID = "GV3-Pr-CP1"; */
+"GV3-Pr-CP1.text" = "120 FOLLOWING";
+
+/* Class = "UILabel"; text = "2 FOLLOWERS"; ObjectID = "HnU-ak-fq2"; */
+"HnU-ak-fq2.text" = "2 FOLLOWERS";
+
+/* Class = "UILabel"; text = "MTECH STUDENT"; ObjectID = "JNf-zk-43B"; */
+"JNf-zk-43B.text" = "MTECH STUDENT";
+
+/* Class = "UILabel"; text = "Lars Dansie"; ObjectID = "KDV-bL-t0M"; */
+"KDV-bL-t0M.text" = "Lars Dansie";
+
+/* Class = "UILabel"; text = "Interests"; ObjectID = "RT2-lf-kVI"; */
+"RT2-lf-kVI.text" = "Interests";
+
+/* Class = "UILabel"; text = "post content"; ObjectID = "Syp-yc-JiE"; */
+"Syp-yc-JiE.text" = "post content";
+
+/* Class = "UITabBarItem"; title = "Feed"; ObjectID = "bh5-Gu-3C9"; */
+"bh5-Gu-3C9.title" = "Feed";
+
+/* Class = "UIButton"; configuration.title = "Skills"; ObjectID = "e5K-S1-xPk"; */
+"e5K-S1-xPk.configuration.title" = "Skills";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "e5K-S1-xPk"; */
+"e5K-S1-xPk.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Follow +"; ObjectID = "flt-0F-005"; */
+"flt-0F-005.configuration.title" = "Follow +";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "flt-0F-005"; */
+"flt-0F-005.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Adobe"; ObjectID = "kEK-Sn-sPR"; */
+"kEK-Sn-sPR.text" = "Adobe";
+
+/* Class = "UILabel"; text = "SpaceX"; ObjectID = "oXZ-Un-Ze5"; */
+"oXZ-Un-Ze5.text" = "SpaceX";
+
+/* Class = "UIButton"; configuration.title = "Posts"; ObjectID = "pGd-WO-eUY"; */
+"pGd-WO-eUY.configuration.title" = "Posts";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "pGd-WO-eUY"; */
+"pGd-WO-eUY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "@larsdansie"; ObjectID = "phN-ww-pYK"; */
+"phN-ww-pYK.text" = "@larsdansie";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "rl3-yv-tDU"; */
+"rl3-yv-tDU.text" = "date";
+
+/* Class = "UILabel"; text = "Lehi, UT"; ObjectID = "sRu-f3-DRV"; */
+"sRu-f3-DRV.text" = "Lehi, UT";
+
+/* Class = "UIButton"; configuration.title = "Members"; ObjectID = "sjX-Jc-PUe"; */
+"sjX-Jc-PUe.configuration.title" = "Members";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sjX-Jc-PUe"; */
+"sjX-Jc-PUe.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Microsoft"; ObjectID = "u9T-bT-cRn"; */
+"u9T-bT-cRn.text" = "Microsoft";
+
+/* Class = "UILabel"; text = "1 POST"; ObjectID = "v8F-eS-xaV"; */
+"v8F-eS-xaV.text" = "1 POST";

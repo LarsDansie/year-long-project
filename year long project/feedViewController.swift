@@ -1,23 +1,26 @@
 //
-//  ViewController.swift
+//  feedViewController.swift
 //  year long project
 //
 //  Created by Lars Dansie on 10/6/23.
 //
 
+import Foundation
+
 import UIKit
 
-class ProfileViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
-    @IBOutlet weak var profileTableView: UITableView!
-
+class feedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+    
+    @IBOutlet weak var postTableView: UITableView!
+    
     var posts = [Post]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         posts = PostAPI.fetchPosts()
-        profileTableView.dataSource = self
-        profileTableView.delegate = self
+        postTableView.dataSource = self
+        postTableView.delegate = self
     }
     
     func tableView(_ tableView: UITableView, estimatedHeightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -29,7 +32,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "postCell", for: indexPath) as! postTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FeedPostCell", for: indexPath) as! postTableViewCell
         let post = posts[indexPath.row]
         
         cell.postIMG.image = post.profilePic
@@ -41,3 +44,4 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         return cell
     }
 }
+
