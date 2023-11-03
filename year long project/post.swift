@@ -14,5 +14,5 @@ struct Post {
     let username: String?
     let content: String?
     let timestamp: String?
-    
+    let likes: Int?
 }

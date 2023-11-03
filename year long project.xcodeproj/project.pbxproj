@@ -11,6 +11,8 @@
 		2D014FE22ACFFC6D004AC33C /* postAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D014FE12ACFFC6D004AC33C /* postAPI.swift */; };
 		2D014FE42AD0061A004AC33C /* postTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D014FE32AD0061A004AC33C /* postTableViewCell.swift */; };
 		2D014FE82AD01D5D004AC33C /* feedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D014FE72AD01D5D004AC33C /* feedViewController.swift */; };
+		2D163E2D2AF3EF29003AC133 /* commentsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E2C2AF3EF29003AC133 /* commentsAPI.swift */; };
+		2D163E2F2AF3EF49003AC133 /* comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D163E2E2AF3EF49003AC133 /* comment.swift */; };
 		2DFC2C782ACFE41500E7DD1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC2C772ACFE41500E7DD1D /* AppDelegate.swift */; };
 		2DFC2C7A2ACFE41500E7DD1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC2C792ACFE41500E7DD1D /* SceneDelegate.swift */; };
 		2DFC2C7C2ACFE41500E7DD1D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFC2C7B2ACFE41500E7DD1D /* ProfileViewController.swift */; };
@@ -25,6 +27,8 @@
 		2D014FE32AD0061A004AC33C /* postTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postTableViewCell.swift; sourceTree = "<group>"; };
 		2D014FE62AD01621004AC33C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		2D014FE72AD01D5D004AC33C /* feedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedViewController.swift; sourceTree = "<group>"; };
+		2D163E2C2AF3EF29003AC133 /* commentsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentsAPI.swift; sourceTree = "<group>"; };
+		2D163E2E2AF3EF49003AC133 /* comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = comment.swift; sourceTree = "<group>"; };
 		2DFC2C742ACFE41500E7DD1D /* year long project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "year long project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFC2C772ACFE41500E7DD1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFC2C792ACFE41500E7DD1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -72,7 +76,9 @@
 				2DFC2C7D2ACFE41500E7DD1D /* Main.storyboard */,
 				2D014FE32AD0061A004AC33C /* postTableViewCell.swift */,
 				2D014FDF2ACFFB86004AC33C /* post.swift */,
+				2D163E2E2AF3EF49003AC133 /* comment.swift */,
 				2D014FE12ACFFC6D004AC33C /* postAPI.swift */,
+				2D163E2C2AF3EF29003AC133 /* commentsAPI.swift */,
 				2DFC2C802ACFE41600E7DD1D /* Assets.xcassets */,
 				2DFC2C822ACFE41600E7DD1D /* LaunchScreen.storyboard */,
 				2DFC2C852ACFE41600E7DD1D /* Info.plist */,
@@ -153,8 +159,10 @@
 			files = (
 				2DFC2C7C2ACFE41500E7DD1D /* ProfileViewController.swift in Sources */,
 				2D014FE82AD01D5D004AC33C /* feedViewController.swift in Sources */,
+				2D163E2F2AF3EF49003AC133 /* comment.swift in Sources */,
 				2DFC2C782ACFE41500E7DD1D /* AppDelegate.swift in Sources */,
 				2D014FE22ACFFC6D004AC33C /* postAPI.swift in Sources */,
+				2D163E2D2AF3EF29003AC133 /* commentsAPI.swift in Sources */,
 				2D014FE42AD0061A004AC33C /* postTableViewCell.swift in Sources */,
 				2DFC2C7A2ACFE41500E7DD1D /* SceneDelegate.swift in Sources */,
 				2D014FE02ACFFB86004AC33C /* post.swift in Sources */,

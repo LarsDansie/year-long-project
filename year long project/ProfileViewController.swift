@@ -14,7 +14,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+    
         posts = PostAPI.fetchPosts()
         profileTableView.dataSource = self
         profileTableView.delegate = self
@@ -37,6 +37,7 @@ class ProfileViewController: UIViewController, UITableViewDataSource, UITableVie
         cell.postUsername.text = post.username
         cell.postContent.text = post.content
         cell.postTimeStamp.text = post.timestamp
+        
 
         return cell
     }

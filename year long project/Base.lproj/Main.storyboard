@@ -57,13 +57,13 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SQk-Xy-Zow">
-                                                    <rect key="frame" x="68" y="8" width="45.333333333333343" height="21"/>
+                                                    <rect key="frame" x="68" y="8.6666666666666661" width="45.333333333333343" height="20.333333333333336"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@larsdansie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bak-Ch-RLe">
-                                                    <rect key="frame" x="110" y="8.0000000000000018" width="77.666666666666686" height="21.666666666666671"/>
+                                                    <rect key="frame" x="121.33333333333331" y="11" width="77.666666666666686" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -72,8 +72,14 @@
                                                     <rect key="frame" x="10" y="8" width="50" height="50"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUE-nX-ina">
-                                                    <rect key="frame" x="234" y="11" width="29" height="17"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" lineBreakMode="clip" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PUE-nX-ina">
+                                                    <rect key="frame" x="352.33333333333331" y="12" width="28.666666666666686" height="17"/>
+                                                    <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rb9-Uo-ccv">
+                                                    <rect key="frame" x="313.33333333333331" y="53" width="69.666666666666686" height="17"/>
                                                     <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -81,17 +87,17 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="Q4d-1h-xiE" secondAttribute="trailing" constant="30" id="0XW-hH-4bi"/>
-                                                <constraint firstItem="Q4d-1h-xiE" firstAttribute="top" secondItem="SQk-Xy-Zow" secondAttribute="bottom" constant="0.6666666666666643" id="7aF-2O-fl3"/>
+                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="top" secondItem="aJQ-k4-yAc" secondAttribute="topMargin" id="5Cw-ol-OAr"/>
+                                                <constraint firstItem="PUE-nX-ina" firstAttribute="top" secondItem="aJQ-k4-yAc" secondAttribute="top" constant="12" id="5Y5-hT-kL0"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="Q4d-1h-xiE" secondAttribute="bottom" constant="18.666666666666671" id="7yy-4L-40j"/>
-                                                <constraint firstItem="Q4d-1h-xiE" firstAttribute="leading" secondItem="SQk-Xy-Zow" secondAttribute="leading" id="9og-y5-XSQ"/>
+                                                <constraint firstItem="SQk-Xy-Zow" firstAttribute="leading" secondItem="Ze7-6t-eif" secondAttribute="trailing" constant="8" id="AhO-TJ-wfP"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="centerY" secondItem="aJQ-k4-yAc" secondAttribute="centerY" id="CvG-gq-sSg"/>
-                                                <constraint firstAttribute="trailing" secondItem="PUE-nX-ina" secondAttribute="trailing" constant="130" id="HzE-Eb-pd5"/>
-                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="leading" secondItem="Ze7-6t-eif" secondAttribute="trailing" constant="50" id="PI6-tR-9an"/>
+                                                <constraint firstItem="SQk-Xy-Zow" firstAttribute="top" secondItem="aJQ-k4-yAc" secondAttribute="top" constant="8.5" id="D4s-Zq-UXl"/>
+                                                <constraint firstAttribute="bottom" secondItem="rb9-Uo-ccv" secondAttribute="bottom" constant="10" id="DI2-yn-hQa"/>
                                                 <constraint firstItem="Q4d-1h-xiE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Ze7-6t-eif" secondAttribute="trailing" constant="8" symbolic="YES" id="Q7u-BZ-ypK"/>
-                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="top" secondItem="aJQ-k4-yAc" secondAttribute="top" constant="8" id="elK-yq-xFY"/>
-                                                <constraint firstItem="Q4d-1h-xiE" firstAttribute="top" secondItem="Bak-Ch-RLe" secondAttribute="bottom" id="h6w-em-V0s"/>
-                                                <constraint firstItem="SQk-Xy-Zow" firstAttribute="leading" secondItem="Q4d-1h-xiE" secondAttribute="leading" id="r9Y-2f-4te"/>
-                                                <constraint firstItem="PUE-nX-ina" firstAttribute="top" secondItem="aJQ-k4-yAc" secondAttribute="topMargin" id="rZY-sK-4G9"/>
+                                                <constraint firstAttribute="trailing" secondItem="PUE-nX-ina" secondAttribute="trailing" constant="12" id="YoK-sk-Lkv"/>
+                                                <constraint firstItem="Bak-Ch-RLe" firstAttribute="leading" secondItem="SQk-Xy-Zow" secondAttribute="trailing" constant="8" id="ZGB-jn-CfU"/>
+                                                <constraint firstAttribute="trailing" secondItem="rb9-Uo-ccv" secondAttribute="trailing" constant="10" id="oE8-RT-9na"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -147,7 +153,9 @@
                             <constraint firstItem="fJQ-L7-OAg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="zeJ-7M-iX9"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Feed" image="backward" catalog="system" selectedImage="backward.fill" id="bh5-Gu-3C9"/>
+                    <tabBarItem key="tabBarItem" title="Feed" image="backward" catalog="system" selectedImage="backward.fill" id="bh5-Gu-3C9">
+                        <color key="badgeColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="postTableView" destination="bwZ-qM-VFl" id="A52-ol-cBJ"/>
                     </connections>
@@ -516,7 +524,9 @@
                             <constraint firstItem="Naw-0H-drO" firstAttribute="leading" secondItem="UsZ-B3-mee" secondAttribute="leading" id="zoc-dp-ViC"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle" catalog="system" selectedImage="person.crop.circle.fill" id="3mb-Jx-tDE"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.crop.circle" catalog="system" selectedImage="person.crop.circle.fill" id="3mb-Jx-tDE">
+                        <color key="badgeColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBarItem>
                     <connections>
                         <outlet property="profileTableView" destination="U6Q-c8-gOn" id="QIL-p9-JfM"/>
                     </connections>
@@ -533,7 +543,7 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="jzt-w5-Lx6">
                         <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="CfQ-xF-2Vt"/>
