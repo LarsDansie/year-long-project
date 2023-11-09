@@ -16,15 +16,12 @@ class postTableViewCell: UITableViewCell {
     @IBOutlet weak var postContent: UILabel!
     @IBOutlet weak var postName: UILabel!
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    func update(with post: Post) {
+        postIMG.image = post.profilePic
+        postName.text = post.name
+        postUsername.text = post.username
+        postContent.text = post.content
+        postTimeStamp.text = post.timestamp
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
-    }
-
 }

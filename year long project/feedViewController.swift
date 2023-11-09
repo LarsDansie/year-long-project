@@ -9,7 +9,7 @@ import Foundation
 
 import UIKit
 
-class feedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class FeedViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var postTableView: UITableView!
     
@@ -34,12 +34,7 @@ class feedViewController: UIViewController, UITableViewDataSource, UITableViewDe
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FeedPostCell", for: indexPath) as! postTableViewCell
         let post = posts[indexPath.row]
-        
-        cell.postIMG.image = post.profilePic
-        cell.postName.text = post.name
-        cell.postUsername.text = post.username
-        cell.postContent.text = post.content
-        cell.postTimeStamp.text = post.timestamp
+        cell.update(with: post)
 
         return cell
     }
